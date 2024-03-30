@@ -1,11 +1,11 @@
-import dotenv
+
 import os
 import telebot
 from portal import main
 from format_res import *
 
-dotenv.load_dotenv()
-API_TOKEN = os.getenv("API_TOKEN")
+
+API_TOKEN = os.getenv("7125049821:AAFsDn1W5LgeAn1hmSreM_HDLvbI9d3SWNs")
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=["start"])
